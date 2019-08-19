@@ -131,19 +131,19 @@ def main():
         args.expdir, args.spkr + '_f0histogram.txt')
     f = open(f0histogrampath, 'w')
     for i in range(f0hist.shape[0]):
-        f.write(str(f0bins[i])+" "+str(f0hist[i])+'\n')
+        f.write('%d %.9f\n' % (f0bins[i], f0hist[i]))
     f.close()
 
     # create a histogram to visualize npow range of the speaker
     npowhistogrampath = os.path.join(
         args.expdir, args.spkr + '_npowhistogram.png')
     npowhist, npowbins = create_histogram(npows, npowhistogrampath, range_min=-70, range_max=20,
-                     step=10, n_bins=270, xlabel="Frame power [dB]")
+                     step=10, n_bins=180, xlabel="Frame power [dB]")
     npowhistogrampath = os.path.join(
         args.expdir, args.spkr + '_npowhistogram.txt')
     f = open(npowhistogrampath, 'w')
     for i in range(npowhist.shape[0]):
-        f.write(str(npowbins[i])+" "+str(npowhist[i])+'\n')
+        f.write('%.1f %.9f\n' % (npowbins[i], npowhist[i]))
     f.close()
 
 
