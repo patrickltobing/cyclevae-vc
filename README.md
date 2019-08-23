@@ -44,7 +44,7 @@ STAGE 6: decoding and waveform conversion
 ----
 ## Trained examples
 
-Example of trained models, converted wavs, and logs can be accessed in [trained_example] (http://bit.ly/309zWXc)
+Example of trained models, converted wavs, and logs can be accessed in [trained_example](http://bit.ly/309zWXc)
 which used speakers SF1 and TF1 from Voice Conversion Challenge (VCC) 2018.
 
     $cd cyclevae-vc_trained/egs/one-to-one/
