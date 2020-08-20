@@ -5,6 +5,8 @@
 ## Further developments
 * Many-to-Many VC with CycleVAE
 * Many-to-Many VC with CycleVQVAE
+* Spectral and excitation modeling
+* 2-dimensional speaker space for speaker interpolation
 * Waveform generation with neural vocoder
 * Mel-spectrogram modeling
 
