@@ -2,6 +2,17 @@
 
 
 ----
+## Further developments
+* Many-to-Many VC with CycleVAE
+* Many-to-Many VC with CycleVQVAE
+* Waveform generation with neural vocoder
+* Mel-spectrogram modeling
+
+All further developments are moved and being integrated in the following repo: https://github.com/patrickltobing/cyclevae-vc-neuralvoco
+
+Thanks!
+
+----
 ## Usage
     $cd tools
     $make
@@ -64,16 +75,6 @@ one of the example of model, converted wavs and logs are located in exp/tr50\_22
 to summarize training log, use
 
     $sh loss_summary.sh
-
-
-----
-## Soon to be added features
-* CycleVQVAE
-* Many-to-Many VC with CycleVAE
-* Many-to-Many VC with CycleVQVAE
-
-*which have been implemented, will be added after finishing the journal*
-
 
 ----
 ## Contact
